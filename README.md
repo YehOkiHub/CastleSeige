@@ -8,10 +8,10 @@ If all points are captured, by the attackers then the game is over.
 If the time runs out, the player score is calculated.
 Depending on the score the user gets, they will will pickup a chest that contains a discount code.
 
-If 1 points are under player control
+If 1 capture point is nder player control
 +100
 
-If 2 points are under player control:
+If 2 capture points are under player control:
 +200
 
 If all 3 points are under player control:
@@ -50,6 +50,8 @@ WHEN I look at my character tab
 THEN I see 100 health
 WHEN I press A and D 
 THEN I can move left and right to move along the walls.
+WHEN I press W and S
+THEN I can move up and down
 WHEN I press K
 THEN I can make attacks
 WHEN I press L
@@ -78,19 +80,12 @@ THEN character throws a javelin (4 charges)
 
 ## Mock-Up Pictures
 
-![Picture](/images/315296835_618389830035065_3487661825173160964_n.jpg)
-![Picture](/images/315355967_687592326068244_7344146676714689648_n.jpg)
-![Picture](/images/315470673_692379282463858_4122736643646927111_n.jpg)
 
 
 
+![sample pic](/images/1.jpg)
+![sample pic](/images/2.jpg
+![sample pic](/images/3.jpg)
 
 
 
-
-
-## Bonus
-
-
-
-## Grading Requirements
